@@ -4,6 +4,7 @@ use ics::{
     properties::{Description, DtEnd, DtStart, Summary},
     Event, ICalendar,
 };
+use itertools::Itertools;
 use serde::Deserialize;
 use std::{
     collections::HashMap,
@@ -103,6 +104,21 @@ fn subject_overlap(subjects: &Subjects, subject: &Subject) -> bool {
     false
 }
 
+fn valid_combination(subjects: &Subjects) -> bool {
+    // Check if the subjects overlap with each other
+    for subject in subjects.iter() {
+        let mut s2 = subjects.clone();
+
+        s2.subject
+            .retain(|s| s.name != subject.name && s.class_id != subject.class_id);
+
+        if subject_overlap(&s2, subject) {
+            return false;
+        }
+    }
+    true
+}
+
 fn _get_combination_of_subjects(
     hashmap: &HashMap<String, Subjects>,
     current_key: &String,
@@ -186,6 +202,27 @@ fn get_combination_of_subjects(hashmap: &HashMap<String, Subjects>) -> Vec<Subje
     return valid_combinations;
 }
 
+fn get_combination_of_subjects_v2(hashmap: &HashMap<String, Subjects>) -> Vec<Vec<&Subject>> {
+    // Collect the values from the HashMap into a vector of slices
+    let data_groups: Vec<&[Subject]> = hashmap.values().map(|v| &v[..]).collect();
+
+    // Generate all possible combinations
+    let combinations: Vec<Vec<&Subject>> =
+        data_groups.into_iter().multi_cartesian_product().collect();
+
+    // Filter out combinations that are invalid using valid_combination
+    let valid_combinations: Vec<Vec<&Subject>> = combinations
+        .into_iter()
+        .filter(|combination| {
+            valid_combination(&Subjects {
+                subject: combination.iter().cloned().cloned().collect(),
+            })
+        })
+        .collect();
+
+    valid_combinations
+}
+
 fn main() {
     let args = Args::parse();
 
@@ -206,7 +243,7 @@ fn main() {
 
     let subjects_by_name = sort_subjects_by_name(subjects);
 
-    let mut valid_combinations = get_combination_of_subjects(&subjects_by_name);
+    let mut valid_combinations = get_combination_of_subjects_v2(&subjects_by_name);
 
     // Sort the valid combinations by the number of subjects in each combination, where the first combination has the most subjects and the last combination has the least subjects
     valid_combinations.sort_by(|a, b| b.len().cmp(&a.len()));
