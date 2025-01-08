@@ -180,27 +180,27 @@ fn _get_combination_of_subjects(
     }
 }
 
-fn get_combination_of_subjects(hashmap: &HashMap<String, Subjects>) -> Vec<Subjects> {
-    let mut valid_combinations: Vec<Subjects> = Vec::new();
+// fn get_combination_of_subjects(hashmap: &HashMap<String, Subjects>) -> Vec<Subjects> {
+//     let mut valid_combinations: Vec<Subjects> = Vec::new();
 
-    let keys = hashmap.keys().collect::<Vec<&String>>();
+//     let keys = hashmap.keys().collect::<Vec<&String>>();
 
-    // Iterate over the keys, so we get the combination of subjects
-    for (i, root_key) in keys.iter().enumerate() {
-        // Get the subjects for the current root key
-        let mut vc: Vec<Subjects> = Vec::new();
-        let remaining_keys = keys[i..].to_vec();
+//     // Iterate over the keys, so we get the combination of subjects
+//     for (i, root_key) in keys.iter().enumerate() {
+//         // Get the subjects for the current root key
+//         let mut vc: Vec<Subjects> = Vec::new();
+//         let remaining_keys = keys[i..].to_vec();
 
-        // Append an empty vector of subjects to vc
-        vc.push(Subjects { subject: vec![] });
+//         // Append an empty vector of subjects to vc
+//         vc.push(Subjects { subject: vec![] });
 
-        _get_combination_of_subjects(hashmap, root_key, remaining_keys, &mut vc, 0);
+//         _get_combination_of_subjects(hashmap, root_key, remaining_keys, &mut vc, 0);
 
-        valid_combinations.append(&mut vc);
-    }
+//         valid_combinations.append(&mut vc);
+//     }
 
-    return valid_combinations;
-}
+//     return valid_combinations;
+// }
 
 fn get_combination_of_subjects_v2(hashmap: &HashMap<String, Subjects>) -> Vec<Vec<&Subject>> {
     // Collect the values from the HashMap into a vector of slices
