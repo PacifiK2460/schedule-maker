@@ -5,4 +5,4 @@
 - Initial release with basic functionality.
 
 ### Fixed
-- None.
+- None
