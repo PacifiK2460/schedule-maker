@@ -22,7 +22,7 @@ struct Args {
     #[arg(short, long)]
     input_file: String,
 
-    /// Output file to export to (defaults to current directory)
+    /// Output directory to export to (defaults to current directory)
     #[arg(short, long, default_value = ".")]
     output_directory: PathBuf,
 }
