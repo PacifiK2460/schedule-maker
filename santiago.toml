@@ -1,15 +1,15 @@
 # https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=410P
-[[subject]]
-name = "Proyecto Integrador y Comprensivo I"
-class_id = "410P/Clase/T21A"
-professor = "Niño Genaro"
-days = [
-  { day = "monday", start = 13:00:00, end = 13:55:00 },
-  { day = "tuesday", start = 13:00:00, end = 13:55:00 },
-  { day = "thursday", start = 13:00:00, end = 13:55:00 },
-  { day = "wednesday", start = 13:00:00, end = 13:55:00 },
-  { day = "friday", start = 13:00:00, end = 13:55:00 },
-]
+# [[subject]]
+# name = "Proyecto Integrador y Comprensivo I"
+# class_id = "410P/Clase/T21A"
+# professor = "Niño Genaro"
+# days = [
+#   { day = "monday", start = 13:00:00, end = 13:55:00 },
+#   { day = "tuesday", start = 13:00:00, end = 13:55:00 },
+#   { day = "thursday", start = 13:00:00, end = 13:55:00 },
+#   { day = "wednesday", start = 13:00:00, end = 13:55:00 },
+#   { day = "friday", start = 13:00:00, end = 13:55:00 },
+# ]
 
 [[subject]]
 name = "Proyecto Integrador y Comprensivo I"
@@ -23,29 +23,29 @@ days = [
   { day = "friday", start = 11:00:00, end = 11:55:00 },
 ]
 
-[[subject]]
-name = "Proyecto Integrador y Comprensivo I"
-class_id = "410P/Clase/T21C"
-professor = "Gámez Liliana"
-days = [
-  { day = "monday", start = 12:00:00, end = 12:55:00 },
-  { day = "tuesday", start = 12:00:00, end = 12:55:00 },
-  { day = "thursday", start = 12:00:00, end = 12:55:00 },
-  { day = "wednesday", start = 12:00:00, end = 12:55:00 },
-  { day = "friday", start = 12:00:00, end = 12:55:00 },
-]
+# [[subject]]
+# name = "Proyecto Integrador y Comprensivo I"
+# class_id = "410P/Clase/T21C"
+# professor = "Gámez Liliana"
+# days = [
+#   { day = "monday", start = 12:00:00, end = 12:55:00 },
+#   { day = "tuesday", start = 12:00:00, end = 12:55:00 },
+#   { day = "thursday", start = 12:00:00, end = 12:55:00 },
+#   { day = "wednesday", start = 12:00:00, end = 12:55:00 },
+#   { day = "friday", start = 12:00:00, end = 12:55:00 },
+# ]
 
-[[subject]]
-name = "Proyecto Integrador y Comprensivo I"
-class_id = "410P/Clase/T21D"
-professor = "Martinez Baltazar"
-days = [
-  { day = "monday", start = 13:00:00, end = 13:55:00 },
-  { day = "tuesday", start = 13:00:00, end = 13:55:00 },
-  { day = "thursday", start = 13:00:00, end = 13:55:00 },
-  { day = "wednesday", start = 13:00:00, end = 13:55:00 },
-  { day = "friday", start = 13:00:00, end = 13:55:00 },
-]
+# [[subject]]
+# name = "Proyecto Integrador y Comprensivo I"
+# class_id = "410P/Clase/T21D"
+# professor = "Martinez Baltazar"
+# days = [
+#   { day = "monday", start = 13:00:00, end = 13:55:00 },
+#   { day = "tuesday", start = 13:00:00, end = 13:55:00 },
+#   { day = "thursday", start = 13:00:00, end = 13:55:00 },
+#   { day = "wednesday", start = 13:00:00, end = 13:55:00 },
+#   { day = "friday", start = 13:00:00, end = 13:55:00 },
+# ]
 
 # https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=510M
 [[subject]]
@@ -80,73 +80,73 @@ professor = "Hernandez Julio Cesar"
 days = [
   { day = "monday", start = 16:00:00, end = 16:55:00 },
   { day = "tuesday", start = 16:00:00, end = 16:55:00 },
-  { day = "thursday", start = 16:00:00, end = 16:55:00 },
   { day = "wednesday", start = 16:00:00, end = 16:55:00 },
+  { day = "thursday", start = 16:00:00, end = 16:55:00 },
   { day = "friday", start = 16:00:00, end = 16:55:00 },
 ]
 
 
 # https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=610F
-[[subject]]
-name = "Lenguajes de Programación"
-class_id = "610F/Clase/T29A"
-professor = "Martinez Victori Gabriel"
-days = [
-  { day = "monday", start = 14:00:00, end = 14:55:00 },
-  { day = "tuesday", start = 14:00:00, end = 14:55:00 },
-  { day = "thursday", start = 14:00:00, end = 14:55:00 },
-]
+# [[subject]]
+# name = "Lenguajes de Programación"
+# class_id = "610F/Clase/T29A"
+# professor = "Martinez Victori Gabriel"
+# days = [
+#   { day = "monday", start = 14:00:00, end = 14:55:00 },
+#   { day = "tuesday", start = 14:00:00, end = 14:55:00 },
+#   { day = "wednesday", start = 14:00:00, end = 14:55:00 },
+# ]
 
-[[subject]]
-name = "Lenguajes de Programación"
-class_id = "610F/Clase/T29B"
-professor = "Martinez Victori Gabriel"
-days = [
-  { day = "monday", start = 15:00:00, end = 15:55:00 },
-  { day = "tuesday", start = 15:00:00, end = 15:55:00 },
-  { day = "thursday", start = 15:00:00, end = 15:55:00 },
-]
+# [[subject]]
+# name = "Lenguajes de Programación"
+# class_id = "610F/Clase/T29B"
+# professor = "Martinez Victori Gabriel"
+# days = [
+#   { day = "monday", start = 15:00:00, end = 15:55:00 },
+#   { day = "tuesday", start = 15:00:00, end = 15:55:00 },
+#   { day = "wednesday", start = 15:00:00, end = 15:55:00 },
+# ]
 
-[[subject]]
-name = "Lenguajes de Programación"
-class_id = "610F/Clase/T29C"
-professor = "Martinez Victori Gabriel"
-days = [
-  { day = "monday", start = 16:00:00, end = 16:55:00 },
-  { day = "tuesday", start = 16:00:00, end = 16:55:00 },
-  { day = "thursday", start = 16:00:00, end = 16:55:00 },
-]
+# [[subject]]
+# name = "Lenguajes de Programación"
+# class_id = "610F/Clase/T29C"
+# professor = "Martinez Victori Gabriel"
+# days = [
+#   { day = "monday", start = 16:00:00, end = 16:55:00 },
+#   { day = "tuesday", start = 16:00:00, end = 16:55:00 },
+#   { day = "wednesday", start = 16:00:00, end = 16:55:00 },
+# ]
 
 # https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=611G
-[[subject]]
-name = "Taller de Desarrollo Empresarial"
-class_id = "611G/Clase/E35A"
-professor = "Islas Maria Guadalpe"
-days = [
-  { day = "monday", start = 16:00:00, end = 16:55:00 },
-  { day = "tuesday", start = 16:00:00, end = 16:55:00 },
-  { day = "thursday", start = 16:00:00, end = 16:55:00 },
-]
+# [[subject]]
+# name = "Taller de Desarrollo Empresarial"
+# class_id = "611G/Clase/E35A"
+# professor = "Islas Maria Guadalpe"
+# days = [
+#   { day = "monday", start = 16:00:00, end = 16:55:00 },
+#   { day = "tuesday", start = 16:00:00, end = 16:55:00 },
+#   { day = "wednesday", start = 16:00:00, end = 16:55:00 },
+# ]
 
-[[subject]]
-name = "Taller de Desarrollo Empresarial"
-class_id = "611G/Clase/T33A"
-professor = "Islas Maria Guadalpe"
-days = [
-  { day = "monday", start = 18:00:00, end = 18:55:00 },
-  { day = "tuesday", start = 18:00:00, end = 18:55:00 },
-  { day = "thursday", start = 18:00:00, end = 18:55:00 },
-]
+# [[subject]]
+# name = "Taller de Desarrollo Empresarial"
+# class_id = "611G/Clase/T33A"
+# professor = "Islas Maria Guadalpe"
+# days = [
+#   { day = "monday", start = 18:00:00, end = 18:55:00 },
+#   { day = "tuesday", start = 18:00:00, end = 18:55:00 },
+#   { day = "wednesday", start = 18:00:00, end = 18:55:00 },
+# ]
 
-[[subject]]
-name = "Taller de Desarrollo Empresarial"
-class_id = "611G/Clase/T33B"
-professor = "Islas Maria Guadalpe"
-days = [
-  { day = "monday", start = 17:00:00, end = 17:55:00 },
-  { day = "tuesday", start = 17:00:00, end = 17:55:00 },
-  { day = "thursday", start = 17:00:00, end = 17:55:00 },
-]
+# [[subject]]
+# name = "Taller de Desarrollo Empresarial"
+# class_id = "611G/Clase/T33B"
+# professor = "Islas Maria Guadalpe"
+# days = [
+#   { day = "monday", start = 17:00:00, end = 17:55:00 },
+#   { day = "tuesday", start = 17:00:00, end = 17:55:00 },
+#   { day = "wednesday", start = 17:00:00, end = 17:55:00 },
+# ]
 
 # https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=810O
 [[subject]]
@@ -156,7 +156,7 @@ professor = "Fernandez Victor Manuel"
 days = [
   { day = "monday", start = 17:00:00, end = 17:55:00 },
   { day = "tuesday", start = 17:00:00, end = 17:55:00 },
-  { day = "thursday", start = 17:00:00, end = 17:55:00 },
+  { day = "wednesday", start = 17:00:00, end = 17:55:00 },
 ]
 
 [[subject]]
@@ -166,7 +166,7 @@ professor = "Fernandez Victor Manuel"
 days = [
   { day = "monday", start = 16:00:00, end = 16:55:00 },
   { day = "tuesday", start = 16:00:00, end = 16:55:00 },
-  { day = "thursday", start = 16:00:00, end = 16:55:00 },
+  { day = "wednesday", start = 16:00:00, end = 16:55:00 },
 ]
 
 [[subject]]
@@ -176,7 +176,7 @@ professor = "Llamas Rafael"
 days = [
   { day = "monday", start = 17:00:00, end = 17:55:00 },
   { day = "tuesday", start = 17:00:00, end = 17:55:00 },
-  { day = "thursday", start = 17:00:00, end = 17:55:00 },
+  { day = "wednesday", start = 17:00:00, end = 17:55:00 },
 ]
 
 [[subject]]
@@ -186,11 +186,32 @@ professor = "Llamas Rafael"
 days = [
   { day = "monday", start = 16:00:00, end = 16:55:00 },
   { day = "tuesday", start = 16:00:00, end = 16:55:00 },
-  { day = "thursday", start = 16:00:00, end = 16:55:00 },
+  { day = "wednesday", start = 16:00:00, end = 16:55:00 },
 ]
 
 #Y las siguientes no hay grupo
-#710O - Curso del Núcleo Optativo IV
-#710P - Ingeniería de Software II
+##710O - Curso del Núcleo Optativo IV
+
+# https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=710P
+[[subject]]
+name = "Ingeniería de Software II"
+class_id = "710P/Clase/T40A"
+professor = "Alonso, Ma. De Jesús"
+days = [
+  { day = "monday", start = 19:00:00, end = 19:55:00 },
+  { day = "tuesday", start = 19:00:00, end = 19:55:00 },
+  { day = "wednesday", start = 19:00:00, end = 19:55:00 },
+]
 #710F - Teoría Computacional
-#510P - Sistemas Digitales
+# https://ssu.upslp.edu.mx/ss/Search/SectionSearch.aspx?eventid=510P
+[[subject]]
+name = "Sistemas Digitales"
+class_id = "510P/Clase/T27A"
+professor = "Aboytes, Jesús Agustín"
+days = [
+  { day = "monday", start = 13:00:00, end = 13:55:00 },
+  { day = "tuesday", start = 13:00:00, end = 13:55:00 },
+  { day = "wednesday", start = 13:00:00, end = 13:55:00 },
+  { day = "thursday", start = 13:00:00, end = 13:55:00 },
+  { day = "friday", start = 13:00:00, end = 13:55:00 },
+]
